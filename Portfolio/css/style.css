@@ -1,0 +1,71 @@
+body {
+	font-family: 'Bubbler One', sans-serif;
+}
+
+#mainimage{
+  padding: 15px 15px 0px 15px;
+}
+
+.title-name {
+	font-size: 90px;
+}
+
+.text-thin {
+	font-weight: lighter;
+}
+
+.title-logo {
+	margin-top: 20px;
+	padding: 15px;
+}
+
+.professional-title {
+	font-size: 30px;
+}
+
+.navbar {
+	background-color: black;
+}
+
+.navbar-brand {
+	margin-top: 15px;
+}
+
+@media screen and (max-width: 767px) {
+	.title-name {
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.title-logo {
+		display: block;
+    	margin: auto;
+	}
+
+	.professional-title {
+		text-align: center;
+	}
+
+	.feat_image {
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.title-name {
+		font-size: 65px;
+		text-align: right;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.title-name {
+		font-size: 75px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.title-name {
+		font-size: 90px;
+	}
+}
